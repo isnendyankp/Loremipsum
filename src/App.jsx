@@ -4,7 +4,7 @@ const App = () => {
     <section className="section-center">
       <h4>tired of boring lorem ipsum</h4>
       <form className="lorem-form">
-        <label htmlFor=""></label>
+        <label htmlFor="amount"></label>
       </form>
     </section>
   );
@@ -19,3 +19,4 @@ export default App;
 // - s7-219:Add form base structure to section
 // - s7-219:Change action to cN lorem-form @section>form
 // - s7-219:Add label to form
+// - s7-219:Add amount for htmlFor @form>label
