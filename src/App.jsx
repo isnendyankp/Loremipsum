@@ -15,7 +15,7 @@ const App = () => {
           value={count}
           onChange={(e) => setCount(e.target.value)}
         />
-        <button className="btn">
+        <button className="btn" type="submit">
           generate
         </button>
       </form>
@@ -45,5 +45,6 @@ export default App;
 // - s7-219:Add onChange for setCount to input form
 // - s7-219:Add button  generate to form
 // - s7-219:Add cN btn to button generate
+// - s7-219:Add type submit to button generate
 
 
