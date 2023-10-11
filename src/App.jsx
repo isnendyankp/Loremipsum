@@ -11,6 +11,7 @@ const App = () => {
           id="amount"
           min="1"
           step="1"
+          max="8"
           
         />
       </form>
@@ -35,5 +36,6 @@ export default App;
 // - s7-219:Add id "amount" to input form
 // - s7-219:Add min "1" to input form
 // - s7-219:Add step "1" to input form
+// - s7-219:Add max "8" to input form
 
 
