@@ -15,6 +15,9 @@ const App = () => {
           value={count}
           onChange={(e) => setCount(e.target.value)}
         />
+        <button>
+          generate
+        </button>
       </form>
     </section>
   );
@@ -40,5 +43,6 @@ export default App;
 // - s7-219:Add max "8" to input form
 // - s7-219:Add value count to input form
 // - s7-219:Add onChange for setCount to input form
+// - s7-219:Add button  generate to form
 
 
