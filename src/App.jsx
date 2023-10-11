@@ -5,7 +5,7 @@ const App = () => {
       <h4>tired of boring lorem ipsum</h4>
       <form className="lorem-form">
         <label htmlFor="amount">paragraphs:</label>
-        <input type="number" name="amount" />
+        <input type="number" name="amount" id="amount" />
       </form>
     </section>
   );
@@ -25,4 +25,6 @@ export default App;
 // - s7-219:Add input base to form
 // - s7-219:change type number to input
 // - s7-219:Add name "amount" to input
+// - s7-219:Add id "amount" to input form
+
 
