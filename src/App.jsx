@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const App = () => {
   const [count, setCount] = useState(1);
   return (
@@ -46,5 +48,6 @@ export default App;
 // - s7-219:Add button  generate to form
 // - s7-219:Add cN btn to button generate
 // - s7-219:Add type submit to button generate
+// - s7-219:import useState from react
 
 
