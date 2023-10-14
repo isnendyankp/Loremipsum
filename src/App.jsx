@@ -6,7 +6,8 @@ const App = () => {
   const [text, setText] = useState([]);
 
   const handleSubmit = (e) => { 
-
+    e.preventDefault();
+    
   };
   return (
     <section className="section-center">
@@ -57,7 +58,8 @@ export default App;
 // - s7-219:import useState from react
 // - s7-219:import data from data.js
 // - s7-219:Add text state value to useState []
-// - s7-219:Add handleSubmit base function
-// - s7-219:Add handleSubmit to form
+// - s7-220:Add handleSubmit base function
+// - s7-220:Add handleSubmit to form
+// - s7-220:Add e.preventDefault to handleSubmit
 
 
