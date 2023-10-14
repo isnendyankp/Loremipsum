@@ -8,7 +8,7 @@ const App = () => {
   const handleSubmit = (e) => { 
     e.preventDefault();
     let amount = parseInt(count);
-    
+    setText(data.slice(0, amount));
   };
   return (
     <section className="section-center">
@@ -63,5 +63,6 @@ export default App;
 // - s7-220:Add handleSubmit to form
 // - s7-220:Add e.preventDefault to handleSubmit
 // - s7-220:Add amount equal to parseInt count
+// - s7-220:Add setText to data slice(array slice method)
 
 
