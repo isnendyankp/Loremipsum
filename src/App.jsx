@@ -7,6 +7,7 @@ const App = () => {
 
   const handleSubmit = (e) => { 
     e.preventDefault();
+    let amount = parseInt(count);
     
   };
   return (
@@ -61,5 +62,6 @@ export default App;
 // - s7-220:Add handleSubmit base function
 // - s7-220:Add handleSubmit to form
 // - s7-220:Add e.preventDefault to handleSubmit
+// - s7-220:Add amount equal to parseInt count
 
 
