@@ -4,6 +4,10 @@ import data from "./data";
 const App = () => {
   const [count, setCount] = useState(1);
   const [text, setText] = useState([]);
+
+  const handleSubmit = (e) => { 
+
+  };
   return (
     <section className="section-center">
       <h4>tired of boring lorem ipsum</h4>
@@ -53,5 +57,6 @@ export default App;
 // - s7-219:import useState from react
 // - s7-219:import data from data.js
 // - s7-219:Add text state value to useState []
+// - s7-219:Add handleSubmit base function
 
 
