@@ -11,7 +11,7 @@ const App = () => {
   return (
     <section className="section-center">
       <h4>tired of boring lorem ipsum</h4>
-      <form className="lorem-form">
+      <form className="lorem-form" onSubmit={handleSubmit}>
         <label htmlFor="amount">paragraphs:</label>
         <input
           type="number"
@@ -58,5 +58,6 @@ export default App;
 // - s7-219:import data from data.js
 // - s7-219:Add text state value to useState []
 // - s7-219:Add handleSubmit base function
+// - s7-219:Add handleSubmit to form
 
 
