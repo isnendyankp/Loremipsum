@@ -30,7 +30,7 @@ const App = () => {
         </button>
       </form>
       <article className="lorem-text">
-        {text.map(() => {
+        {text.map((item, index) => {
           
         })}
       </article>
@@ -71,5 +71,6 @@ export default App;
 // - s7-220:Add setText to data slice(array slice method)
 // - s7-220:Add article base to section
 // - s7-220:Add text.map to article
+// - s7-220:pass item, index to text.map @article
 
 
