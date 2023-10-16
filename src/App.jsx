@@ -29,6 +29,9 @@ const App = () => {
           generate
         </button>
       </form>
+      <article className="lorem-text">
+        
+      </article>
     </section>
   );
 };
@@ -64,5 +67,6 @@ export default App;
 // - s7-220:Add e.preventDefault to handleSubmit
 // - s7-220:Add amount equal to parseInt count
 // - s7-220:Add setText to data slice(array slice method)
+// - s7-220:Add article base to section
 
 
