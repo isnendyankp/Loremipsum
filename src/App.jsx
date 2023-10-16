@@ -31,7 +31,7 @@ const App = () => {
       </form>
       <article className="lorem-text">
         {text.map((item, index) => {
-          return <p key={index}></p>;
+          return <p key={index}>{item}</p>;
         })}
       </article>
     </section>
@@ -73,5 +73,6 @@ export default App;
 // - s7-220:Add text.map to article
 // - s7-220:pass item, index to text.map @article
 // - s7-220:Add p with key index to return @article
+// - s7-220:pass item to p @article
 
 
