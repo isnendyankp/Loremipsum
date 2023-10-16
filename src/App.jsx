@@ -30,7 +30,9 @@ const App = () => {
         </button>
       </form>
       <article className="lorem-text">
-        
+        {text.map(() => {
+          
+        })}
       </article>
     </section>
   );
@@ -68,5 +70,6 @@ export default App;
 // - s7-220:Add amount equal to parseInt count
 // - s7-220:Add setText to data slice(array slice method)
 // - s7-220:Add article base to section
+// - s7-220:Add text.map to article
 
 
