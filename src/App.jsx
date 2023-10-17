@@ -1,6 +1,6 @@
 import { useState } from "react";
 import data from "./data";
-
+import { nanoid } from 'nanoid';
 
 const App = () => {
   const [count, setCount] = useState(1);
@@ -74,6 +74,7 @@ export default App;
 // - s7-220:Add text.map to article
 // - s7-220:pass item, index to text.map @article
 // - s7-220:Add p with key index to return @article
-// - s7-220:pass item to p @article
+// - s7-221:pass item to p @article
+// - s7-221:import nanoid nanoid
 
 
