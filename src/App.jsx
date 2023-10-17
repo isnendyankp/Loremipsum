@@ -1,6 +1,7 @@
 import { useState } from "react";
 import data from "./data";
 
+
 const App = () => {
   const [count, setCount] = useState(1);
   const [text, setText] = useState([]);
