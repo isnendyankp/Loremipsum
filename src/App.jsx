@@ -31,8 +31,8 @@ const App = () => {
         </button>
       </form>
       <article className="lorem-text">
-        {text.map((item, index) => {
-          return <p key={index}>{item}</p>;
+        {text.map((item) => {
+          return <p key={nanoid}>{item}</p>;
         })}
       </article>
     </section>
@@ -76,5 +76,6 @@ export default App;
 // - s7-220:Add p with key index to return @article
 // - s7-221:pass item to p @article
 // - s7-221:import nanoid nanoid
+// - s7-221:change index to nanoid @article
 
 
