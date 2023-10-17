@@ -1,19 +1,19 @@
-import { useState } from "react";
-import data from "./data";
+import { useState } from 'react';
+import data from './data';
 import { nanoid } from 'nanoid';
 
 const App = () => {
   const [count, setCount] = useState(1);
   const [text, setText] = useState([]);
 
-  const handleSubmit = (e) => { 
+  const handleSubmit = (e) => {
     e.preventDefault();
     let amount = parseInt(count);
     setText(data.slice(0, amount));
   };
   return (
     <section className="section-center">
-      <h4>tired of boring lorem ipsum</h4>
+      <h4>tired of boring lorem ipsum?</h4>
       <form className="lorem-form" onSubmit={handleSubmit}>
         <label htmlFor="amount">paragraphs:</label>
         <input
@@ -32,7 +32,7 @@ const App = () => {
       </form>
       <article className="lorem-text">
         {text.map((item) => {
-          return <p key={nanoid}>{item}</p>;
+          return <p key={nanoid()}>{item}</p>;
         })}
       </article>
     </section>
@@ -77,5 +77,3 @@ export default App;
 // - s7-221:pass item to p @article
 // - s7-221:import nanoid nanoid
 // - s7-221:change index to nanoid @article
-
-
